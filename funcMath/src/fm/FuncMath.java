@@ -4,10 +4,15 @@ package fm;
 /**
  *
  * @author ruben
- * @version 0.1
+ * @version 0.2
  * 
  * Librería con algunas de las operaciones matemáticas más utilizadas
  */
+
+/* AÑADIR:
+*  media de x números, aleatorio entre.
+*/
+
 public class FuncMath {
     
     public int sumar(int n1, int n2) {
@@ -69,6 +74,26 @@ public class FuncMath {
         int b = Math.min(n1, n2);
         mcm = (a/maximoComunDivisor(a, b))*b;
         return mcm;
+    }
+    
+    public int maximoDe(int n1, int n2) {
+        int max;
+        if (n1 > n2) {
+            max = n1;
+        } else {
+            max = n2;
+        }
+        return max;
+    }
+    
+    public int minimoDe(int n1, int n2) {
+        int min;
+        if (n1 < n2) {
+            min = n1;
+        } else {
+            min = n2;
+        }
+        return min;
     }
     
 }
