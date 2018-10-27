@@ -1,6 +1,8 @@
 
 package fm;
 
+import java.util.List;
+
 /**
  *
  * @author ruben
@@ -94,6 +96,20 @@ public class FuncMath {
             min = n2;
         }
         return min;
+    }
+    
+    public int mediaDeXNumeros(List<Integer> numeros) {
+        int suma=0,media;
+        for (Integer numero : numeros) {
+            suma += numero;
+        }
+        media = suma / numeros.size();
+        return media;
+    }
+    
+    public int aleatorioHasta(int limite) {
+        int aleatorio = (int) ((Math.random()*limite)+1);
+        return aleatorio;
     }
     
 }
