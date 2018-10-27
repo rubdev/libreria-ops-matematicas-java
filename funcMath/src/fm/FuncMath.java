@@ -11,10 +11,6 @@ import java.util.List;
  * Librería con algunas de las operaciones matemáticas más utilizadas
  */
 
-/* AÑADIR:
-*  media de x números, aleatorio entre.
-*/
-
 public class FuncMath {
     
     public int sumar(int n1, int n2) {
