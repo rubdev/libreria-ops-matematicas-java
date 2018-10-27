@@ -6,7 +6,7 @@ import java.util.List;
 /**
  *
  * @author ruben
- * @version 0.2
+ * @version 1.0
  * 
  * Librería con algunas de las operaciones matemáticas más utilizadas
  */
